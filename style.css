@@ -1120,3 +1120,15 @@ h4 {
     font-size: 17px;
 }
 
+.fa-chart-line,
+.fa-laptop-code,
+.fa-pencil {
+    font-size: 60px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+h2.intro-services{
+    margin-bottom: 30px;
+}
+
