@@ -309,8 +309,8 @@ a:hover {
 
 .navbar-brand img[src$=svg] {
     min-width: 100px;
-    width: auto;
-    height: 60px;
+    width: 280px;
+    height: 100px;
 }
 
 .nav-center .navbar-brand img {
@@ -1140,5 +1140,9 @@ h2.intro-services{
 #logo-tete {
     width: 100px;
     height: 100px;
+}
+.logo-banniere {
+    width: 330px;
+    height: 60px;
 }
 
