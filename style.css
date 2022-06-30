@@ -583,7 +583,7 @@ a[data-lightbox]:hover img {
 
 .lightbox-caption {
     padding: 20px;
-    color: #FFF;
+    /* color: #FFF; */
     background: rgba(0, 0, 0, .5);
     position: absolute;
     left: 15px;
@@ -591,7 +591,9 @@ a[data-lightbox]:hover img {
     bottom: 5px;
     /* ajout d'une taille de police plus grande et color black */
     color: black;
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: bold;
+
 }
 
 .close-lightbox {
