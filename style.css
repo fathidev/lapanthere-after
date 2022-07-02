@@ -1158,3 +1158,15 @@ h2.intro-services{
     height: 250px;
 }
 
+
+.size-link-social {
+
+    display: inline-block;     
+       position: relative;    
+       z-index: 1;     
+       padding: 2em;     
+       /* margin: -2em; */
+
+
+
+}    
