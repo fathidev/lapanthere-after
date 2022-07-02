@@ -547,7 +547,8 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
+    /* margin-left: -25px; */
+    margin-left: 100px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -1144,5 +1145,15 @@ h2.intro-services{
 .logo-banniere {
     width: 330px;
     height: 60px;
+}
+
+
+.link-hover-blue:hover {
+    color: var(--color-hover);
+
+}
+.image-caroussel {
+    width: 250px;
+    height: 250px;
 }
 
