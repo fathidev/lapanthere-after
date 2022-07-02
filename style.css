@@ -1072,6 +1072,7 @@ h4 {
  @media (max-width: 767px){
     .item-titre{ 
         margin-bottom:0;
+        
     }
     .service-description {
         margin-bottom: 30px;
@@ -1156,4 +1157,5 @@ h2.intro-services{
     width: 250px;
     height: 250px;
 }
+
 
