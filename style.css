@@ -1160,12 +1160,10 @@ h2.intro-services{
 
 
 .size-link-social {
-
     /* minimim 48 x 48 px focusable */
     display: inline-block;     
        position: relative;    
        z-index: 1;     
        padding: 1em;     
        /* margin: -2em; */
-
 }    
