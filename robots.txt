@@ -1,4 +1,4 @@
-# fichier pour les robots du site http://www.adressedevotresite.com/
+# fichier pour les robots du site https://fathidev.github.io/lapanthere-after/
 User-Agent: * 
 Disallow: 
 Sitemap: https://fathidev.github.io/lapanthere-after/sitemap.xml
