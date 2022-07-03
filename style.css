@@ -10,6 +10,8 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-family: 'Fira Sans', sans-serif;
+    
 }
 
 a,
@@ -543,7 +545,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family:'Fira Sans', sans-serif;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -662,7 +664,7 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
+    font-family:'Fira Sans', sans-serif;
     font-weight: 400;
     color: #000000;
 }
