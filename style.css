@@ -1155,10 +1155,6 @@ h2.intro-services{
 }
 
 
-.link-hover-blue:hover {
-    color: var(--color-hover);
-
-}
 .image-caroussel {
     width: 250px;
     height: 250px;
@@ -1173,3 +1169,5 @@ h2.intro-services{
        padding: 1em;     
        /* margin: -2em; */
 }    
+
+

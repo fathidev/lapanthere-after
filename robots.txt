@@ -1,4 +1,5 @@
 # fichier pour les robots du site https://fathidev.github.io/lapanthere-after/
 User-Agent: * 
+# on autorise le crawling de tout le contenu du site
 Disallow: 
 Sitemap: https://fathidev.github.io/lapanthere-after/sitemap.xml
