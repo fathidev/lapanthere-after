@@ -549,17 +549,17 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    /* margin-left: -25px; */
-    margin-left: 100px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
     font-weight: 100;
     z-index: 1;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
+    top:43%;
+    left:43%;
+    /* transform: ; */
+    /* transform: translateY(-70%); */
+    /* -webkit-transform: translateY(-70%); */
 }
 
 a[data-lightbox]:hover img {
@@ -594,7 +594,7 @@ a[data-lightbox]:hover img {
     bottom: 5px;
     /* ajout d'une taille de police plus grande et color black */
     color: black;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
 
 }
@@ -863,17 +863,17 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
-}
-
+} */
+/* 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
-}
+} */
 
 @media (max-width: 991px) {
     .container {
@@ -888,8 +888,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /* padding-left: constant(safe-area-inset-left); */
+        /* padding-right: constant(safe-area-inset-right); */
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -899,8 +899,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /* padding-left: constant(safe-area-inset-left); */
+        /* padding-right: constant(safe-area-inset-right); */
     }
 }
 
@@ -1042,7 +1042,7 @@ h4 {
         height: 320px;
     }
 }
-
+/*  mon code modif  */
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
@@ -1158,6 +1158,8 @@ h2.intro-services{
 .image-caroussel {
     width: 250px;
     height: 250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
